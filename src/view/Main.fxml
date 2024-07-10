@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onDragDetected="#btnItemOnAction" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <Label alignment="CENTER" layoutX="100.0" layoutY="37.0" prefHeight="54.0" prefWidth="335.0" text="CMJD107-javaFx" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.3754938244819641" green="0.10506822913885117" blue="0.8105263113975525" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button layoutX="50.0" layoutY="130.0" mnemonicParsing="false" onAction="#btnCustomerOnAction" prefHeight="30.0" prefWidth="100.0" text="Customer" textFill="#cf1919">
+         <font>
+            <Font name="System Bold Italic" size="12.800000190734863" />
+         </font>
+      </Button>
+      <Button layoutX="224.0" layoutY="130.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="Item" textFill="#1bcf3f">
+         <font>
+            <Font name="System Bold Italic" size="12.800000190734863" />
+         </font>
+      </Button>
+      <Button layoutX="367.0" layoutY="130.0" mnemonicParsing="false" onAction="#btnOrderOnAction" prefHeight="30.0" prefWidth="100.0" text="Order" textFill="#1b54cf">
+         <font>
+            <Font name="System Bold Italic" size="12.800000190734863" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
